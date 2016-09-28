@@ -3,10 +3,11 @@ Run system commands parallelly.
 
 
 Usage: RUN system CoMmanDS in Multi-Processing
-python RunCmdsMP.py [options] <commands.list>
+
+python RunCmdsMP.py [options] \<commands.list>
 
 Options:
-  --version             show program's version number and exit
+\  --version             show program's version number and exit
   -h, --help            show this help message and exit
   -p PROCESSORS, --processors=PROCESSORS
                         number of processors [default=2]
