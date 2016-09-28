@@ -14,7 +14,7 @@ Run system commands parallelly.
                         separation between two commands [default="\n"]  
 	  -c TO_BE_CONTINUE, --continue=TO_BE_CONTINUE  
                         continue [1] or not [0] [default=1]  
-# Dependences
+# Dependencies
 
 	python = 2.7
 	pp
