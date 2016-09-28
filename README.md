@@ -81,7 +81,7 @@ The command list file can be easily creadted using a loop in Linux shell:
 		echo "samtools view -bS $SAMPLE.sam | samtools sort - $SAMPLE.sort"
 		echo "^-^"
 	done > commands.list
-or using other any mehtods.
+or using any other mehtods.
 	
 In sample.list, there is:
 
