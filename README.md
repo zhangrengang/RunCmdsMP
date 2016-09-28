@@ -92,7 +92,7 @@ In sample.list, there is:
 	...
 
 #中文教程
-首先做一个要运行的命令文件(commands.list),设定好命令块间的分隔符,然后运行即可:
+首先做一个要运行的命令文件(commands.list), 设定好命令块间的分隔符, 然后运行即可:
 
 	python RunCmdsMP.py commands.list
 	
@@ -115,4 +115,4 @@ In sample.list, there is:
 
 	python RunCmdsMP.py commands.list -s "^-^" -p 8 -c 1
 	
-本程序的特点是可断点续行, 可指定命令分隔符, 可回收标准错误和标准输出, 可回收退出状态非0的命令.
+本程序的特点是可多核并行运行, 可断点续行, 可指定命令分隔符, 可回收标准错误和标准输出, 可回收退出状态非0的命令.
