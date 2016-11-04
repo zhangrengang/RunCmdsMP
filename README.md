@@ -73,7 +73,7 @@ you can run:
 
 	python RunCmdsMP.py commands.list -s "^-^"
 	
-The command list file can be easily creadted using a loop in Linux shell:
+The command list file can be easily created using a loop in Linux shell:
 
 	cat sample.list | while read SAMPLE
 	do
@@ -81,7 +81,7 @@ The command list file can be easily creadted using a loop in Linux shell:
 		echo "samtools view -bS $SAMPLE.sam | samtools sort - $SAMPLE.sort"
 		echo "^-^"
 	done > commands.list
-or using any other mehtods.
+or using any other methods.
 	
 In sample.list, there is:
 
